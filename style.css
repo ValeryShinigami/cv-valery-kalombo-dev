@@ -5,8 +5,6 @@
 }
 body {
   font-family: 'Roboto Mono', monospace;
-
-
 }
 
 header {
@@ -14,9 +12,9 @@ header {
   color: white;
   display: flex;
   justify-content: space-between;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the bottom of the page */
-  width: 100%; /* Full width */
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .title {
@@ -35,9 +33,15 @@ header {
   height: 150px;
   border: 3px solid cornflowerblue;
   background-image: url("img/uax2r-Ho_400x400.jpeg");
+
+}
+
+.imageProfil, .trip {
+
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .container {
@@ -52,7 +56,6 @@ header {
 .postal {
   margin-left: 30px;
 }
-
 
 h2 {
   background-color: cornflowerblue;
@@ -80,9 +83,8 @@ h2 {
 }
 
 .trip {
-  width: 200px;
-  height: 200px;
-
-
+  width: 560px;
+  height: 315px;
+  background-image: url("img/1537447435580.jpeg");
 
 }
