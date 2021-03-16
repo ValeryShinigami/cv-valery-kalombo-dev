@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -27,7 +27,7 @@ header {
   border: 3px solid cornflowerblue;
   background-image: url("img/uax2r-Ho_400x400.jpeg");
   background-position: center center;
-  background-repeat: no repeat;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -35,6 +35,11 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+.identification, .imageProfil {
+  margin-top: 10px;
+}
+
 
 h2 {
   background-color: cornflowerblue;
